@@ -1,0 +1,152 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  background: linear-gradient(#153a98, #1555de);
+}
+
+.text-h1 {
+  justify-content: center;
+}
+
+.text-h1 h1 {
+  color: black;
+  font-size: 2rem;
+  padding: 1rem;
+}
+
+.text-h1 .bi {
+  font-size: 2.5rem;
+  margin-left: 1rem;
+}
+
+main {
+  max-width: 450px;
+  margin: auto;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-color: aliceblue;
+  border-radius: 2rem;
+  padding: 18px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+}
+
+.search-form {
+  align-items: center;
+  border: 1px solid #bdbdbd;
+  padding: 4px 16px;
+  border-radius: 1rem;
+}
+
+.search-form input {
+  border: none;
+  background-color: transparent;
+  font-size: 1.1rem;
+  width: 100%;
+}
+
+main .search-form .bi {
+  font-size: 1.3rem;
+  text-align: center;
+}
+
+main .search-form .bi-geo-alt-fill {
+  margin-right: 1rem;
+}
+
+#weather {
+  display: none;
+}
+
+#weather.show {
+  display: block;
+}
+
+#weather #title {
+  font-size: 1.4rem;
+  text-align: center;
+  margin-bottom: 10px;
+  font-weight: 600;
+  color: #372f3f;
+}
+
+#temp {
+  align-items: center;
+  justify-content: space-around;
+  gap: 20px;
+  background: linear-gradient(90deg, #5a7cdc, #606dde);
+  color: #fff;
+  border-radius: 1.5rem;
+  padding: 2rem;
+}
+
+#temp_img {
+  filter: drop-shadow(2px 2px 2px rgba(0, 0, 0, 0, 2));
+}
+
+#temp_value {
+  font-weight: bold;
+  font-size: 3rem;
+  line-height: 55px;
+}
+
+#temp_description {
+  font-weight: 500;
+  text-transform: capitalize;
+  font-size: 1.2rem;
+}
+
+#other_infos {
+  margin-top: 2rem;
+}
+
+#other_infos .col-6 {
+  align-items: center;
+  justify-content: start;
+  padding: 4px 10px;
+  gap: 10px;
+}
+
+#other_infos .col-6 h2 {
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+#other_infos .col-6 p {
+  font-size: 1.1rem;
+  font-weight: 300;
+}
+
+#other_infos .col-6 i {
+  text-align: center;
+  font-size: 1.8rem;
+  width: 20%;
+}
+
+#temp_max_icon {
+  color: #7f1d1d;
+}
+
+#temp_min_icon {
+  color: #0284c7;
+}
+
+#droplet_icon {
+  color: #0ea5e9;
+}
+
+#wind_icon {
+  color: #7c3aed;
+}
+
+#alert {
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
